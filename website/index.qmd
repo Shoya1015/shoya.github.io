@@ -1,0 +1,6 @@
+---
+title: "Shoya Abe"
+about:
+  template: trestles
+---
+

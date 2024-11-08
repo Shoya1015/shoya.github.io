@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site
+  
+lang: ja
+
+execute: 
+  freeze: auto
+  warning: false
+
+website:
+  title: "Shoya Abe"
+  site-url: https://Shoya1015.github.io
+  repo-url: https://github.com/Shoya1015/shoya.github.io
+  open-graph: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
